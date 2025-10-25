@@ -1,0 +1,35 @@
+<!-- the term "cascading" reflects the order off importrance and spaificarly of the style-->
+
+<!-- the specificity of a selector detemeines which style is applied when the conflecting style are persent . style with higher specificity with  takes precedence -->
+
+<!-- the order od the importance
+1.in-line
+2.id
+3.class
+4.heading
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            color: red !important;
+        }
+        .yellow{
+            color: yellow !important;
+
+        }
+        #green{
+            color: green !important;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1 class="yellow" id="green" style="color: blue !important;">hello world</h1>
+    
+</body>
+</html>

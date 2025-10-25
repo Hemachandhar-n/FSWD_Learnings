@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anime</title>
+    <style>
+        h1{
+            animation: effect1;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes effect1{
+            from{
+                opacity: 0.2;
+                color: blue;
+            }
+            to{
+                opacity: 1;
+                color: crimson;
+            }
+        }
+
+        div{
+            animation: effect2 3s  linear infinite;
+            border: none;
+            padding: 100px;
+        }
+        @keyframes effect2{
+            from{
+                transform:translateX(200px) rotate(135deg);
+            }
+            to{
+                transform:rotate(240deg) translateX(200px);            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <div><img src="ANIMINATION/f460c2d2c97a99a030f542ce0d84c953.png" alt="noimg" height="200px"></div>
+    
+</body>
+</html>

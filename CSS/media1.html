@@ -1,0 +1,104 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .col{
+            height: 300px;
+            width: 300px;
+            background-color: lightgreen;
+            border: 3px solid red;
+            margin: 30px;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        @media (min-width:620px) and (max-width:1024px){
+            .col{
+                background-color: lightcoral;
+                border: 3px solid blue;
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+        @media (min-width:320px) and (max-width:620px){
+            .col{
+                background-color: lightsalmon;
+                border: 3px solid green;
+            }
+            .row{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col">col 1</div>
+        <div class="col">col 2</div>
+        <div class="col">col 3</div>
+         <div class="col">col 4</div>
+    </div>
+</body>
+</html> -->
+
+<!-- ////////////////////////////////////////////////////////////////////////////// -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .col{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            border: 3px solid black;
+            margin: 30px;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        @media (min-width:620px) and (max-width:1024px){
+            .row{
+                background-color: blue;
+                border: 4px green dotted;
+
+            }
+            .col{
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+        @media (min-width:320px) and (max-width:620px){
+            .row{
+                background-color: black;
+                border: 3px dashed red ;
+            }
+            .col{
+                display: block;
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col">col1</div>
+        <div class="col">col2</div>
+        <div class="col">col3</div>
+        <div class="col">col4</div>
+        <div class="col">col5</div>
+    </div>
+    
+</body>
+</html>

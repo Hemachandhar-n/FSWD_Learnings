@@ -1,0 +1,38 @@
+<!-- responsive Navbar -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    .navbar{
+        color: white;
+        background-color: black;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar_links{
+        display: flex;
+        gap: 20px;
+    }
+    @media screen and (max-width:600px) {
+        .navbar_links{
+            display: none;
+        }
+    }
+   </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>NAVBAR</h1>
+        <div class="navbar_links">
+            <p>HOME</p>
+            <p>search</p>
+            <p>about</p>
+            <p>contacts</p>
+        </div>
+    </div>
+    
+</body>
+</html>

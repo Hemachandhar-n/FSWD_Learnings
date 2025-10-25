@@ -1,0 +1,58 @@
+<!-- BEM - Stand for block, element, and modifier. it is a naming convention and methodology for writing modular and maintained CSS -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+        .card{
+            width: 200px;
+            background-color: black;
+            color: white;
+            border: solid red 5px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .card__button{
+            padding: 3px;
+        }
+        .card__button--red{
+            padding: 3px;
+        }
+        .card__button:hover{
+            color: cadetblue;
+            background-color: greenyellow;
+            border: transparent;
+            border: solid blue 5px;
+        }
+         .card__button--red:hover{
+            color: white;
+            background-color: red;
+            border: transparent;
+            border: solid blueviolet 5px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <center>
+    <div class="card">
+      <h1 class="card__heading">Yercaud Hills</h1>
+      <img
+        class="card__image"
+        src="image copy.png"
+        alt="no image"
+        height="200px"
+        width="200px"
+      />
+
+      <p class="card__desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, repellat
+        facilis accusantium tempore aut sequi harum illo quidem a earum?
+      </p>
+      <button class="card__button">Checkout</button>
+      <button class="card__button--red">Delete</button>
+    </div>
+    </center>
+  </body>
+</html>

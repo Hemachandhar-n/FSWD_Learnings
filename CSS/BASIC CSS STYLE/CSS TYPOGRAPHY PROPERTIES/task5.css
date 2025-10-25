@@ -1,0 +1,49 @@
+.white-spacing__p1{
+    border: solid red 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+}
+
+.white-spacing__p2{
+    border: solid red 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    white-space: normal;
+}
+.white-spacing__p3{
+    border: solid red 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    white-space: pre;
+}
+.white-spacing__p4{
+    border: solid red 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    white-space: pre-line;
+}
+.white-spacing__p5{
+    border: solid red 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    white-space: pre-wrap;
+}
+.white-spacing__p6{
+    border: solid red 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    white-space: wrap;
+}
+.white-spacing__p7{
+    border: solid red 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    white-space: nowrap;
+}
+.white-spacing__p8{
+    border: solid red 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    white-space: collapse;
+}

@@ -1,0 +1,34 @@
+<!-- attributes selector -->
+
+<!-- syntax
+ 
+[attributes~=vaule]
+{
+    css property:
+}
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: black;
+            text-align: center;
+        }
+
+        [title~="sam"]
+        {
+            border: red solid 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="image.png" alt="no image" title="iphone" height="200px" width="200px">
+    <img src="image copy 2.png" alt="no image" title="sam" height="200px" width="200px">
+    <img src="image copy.png" alt="no image" title="iphone" height="200px" width="200px">
+    <img src="image copy 3.png" alt="no image" title="sam" height="200px" width="200px">
+    
+</body>
+</html>

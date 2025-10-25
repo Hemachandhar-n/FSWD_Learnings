@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            animation-name: effect;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes effect{
+            from{
+                opacity: 0.4;
+                color: red;
+            }
+            to{
+                opacity: 1;
+                color: blue;
+            }
+        }
+        div{
+            height: 90px;
+            width: 80px;
+            background-color: lightcoral;
+            animation: anime 2s linear infinite;
+            border-radius: 30%;
+        }
+        @keyframes anime{
+            from{
+                transform: scale(1);
+                background-color: blue;
+            }
+            to{
+                transform: scale(1.2);
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>hi am developer</h1>
+    <div></div>
+</body>
+</html>

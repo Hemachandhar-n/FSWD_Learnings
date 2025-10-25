@@ -1,0 +1,34 @@
+<!-- 2. Relative POsition -->
+
+<!-- Realtive: when the elements is given position :relative, it is positioned relative to its normal positioned in the documents flow
+  , use of top , bottom, left and right properties to move the elements from its original position,
+  while still occupying the same space in the dicument flow 
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+        .box1{
+            background-color: brown;
+            height: 100px;
+            width: 100px;
+            position: static;
+        }
+        .box2{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            top: 200px;
+            left: 600px;
+
+        }
+
+    </style>
+  </head>
+  <body>
+    <h1 class="box1"></h1>
+    <h1 class="box2"></h1>
+  </body>
+</html>

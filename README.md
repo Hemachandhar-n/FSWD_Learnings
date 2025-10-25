@@ -4,7 +4,7 @@ This repository documents my journey in learning **Full Stack Web Development (M
 
 ## 📚 Contents
 - HTML, CSS, and JavaScript fundamentals
-- HTML, CSS, and JavaScript fundamentals(relative/path/to/file.md) 
+- HTML, CSS, and JavaScript fundamentals(HTML/contant.md) 
 - React.js components, hooks, and state management  
 - Node.js and Express.js backend development  
 - MongoDB database handling and Mongoose  

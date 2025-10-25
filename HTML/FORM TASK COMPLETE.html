@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM TASK</title>
+
+    <style>
+      label{
+        text-align: left;
+        align-items: flex-start;
+      }
+    </style>
+
+    <h1 style="color: blue; text-align: center">Form task</h1>
+    <!-- inline styleling -->
+  </head>
+  <body>
+    <fieldset>
+      <form>
+        <legend>
+          personal details
+        </legend>
+        welcome
+        <br />
+        <select>
+          <option value="">-none-</option>
+          <option value="">mr</option>
+          <option value="">mrs</option>
+        </select>
+        <br />
+        <table>
+          <tr>
+            <td><br />FIRST NAME</td>
+            <td><br /><input type="text" required /></td>
+          </tr>
+          <tr>
+            <td><br />MIDDLE NAME</td>
+            <td><br /><input type="text" /></td>
+          </tr>
+
+          <tr>
+            <td><br />LAST NAME</td>
+            <td><br /><input type="text" required /></td>
+          </tr>
+          <tr>
+            <td><br /><label>Gender</label></td>
+            <td>
+              <br /><input
+                type="radio"
+                id="Male"
+                name="Gender"
+                value="Male"
+                checked
+              /><label for="Male">Male</label>
+              <input
+                type="radio"
+                id="Female"
+                name="Gender"
+                value="Female"
+              /><label for="Female">Female</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><br />email:</td>
+            <td><br /><input type="email" /></td>
+          </tr>
+
+          <tr>
+            <td><br />date of birth:</td>
+            <td><br /><input type="date" /></td>
+          </tr>
+          <tr>
+            <td><br /><label for="address" id="address">address:</label></td>
+          </tr>
+          <tr>
+            <td colspan="5">
+              <textarea id="address" rows="6" cols="30"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="submit" /></td>
+          </tr>
+        </table>
+        <br />
+      </form>
+    </fieldset>
+  </body>
+</html>

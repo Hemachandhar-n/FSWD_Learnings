@@ -1,0 +1,233 @@
+.topnav {
+  background: #ed5353;
+  background: linear-gradient(
+    90deg,
+    rgba(237, 83, 83, 1) 0%,
+    rgba(253, 29, 246, 1) 49%,
+    rgba(69, 252, 249, 1) 98%
+  );
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: small;
+}
+
+.search-bar {
+  float: right;
+  color: whitesmoke;
+  text-align: right;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: small;
+}
+
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.tulpen-one-regular {
+  font-family: "Tulpen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.doto {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "ROND" 0;
+}
+
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sixtyfour-convergence {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" 0, "XELA" 0, "YELA" 0;
+}
+
+.grenze-gotisch {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heading {
+  font-size: 100px;
+  text-align: center;
+  font-weight: lighter;
+  font-family: "Grenze Gotisch", serif;
+  text-decoration: dashed;
+}
+
+.subhead {
+  text-align: center;
+  font-weight: lighter;
+  font-family: "Silkscreen", sans-serif;
+}
+
+/* CSS */
+.button-85 {
+  font-family: "Doto", sans-serif;
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+  word-spacing: 1px;
+}
+.site-footer {
+  background: #0099f7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f11712,
+    #0099f7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f11712,
+    #0099f7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-family: "Arial", sans-serif;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00e5ff;
+}

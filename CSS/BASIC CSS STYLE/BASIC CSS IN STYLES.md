@@ -9,11 +9,13 @@ Each topic below links to a specific folder or example demonstrating its use.
 
 ## 🧩 **Typography Property Folders**
 
-### 🎨 Color and Background
-- [color and bg](./color%20and%20bg/) → Learn how to apply text colors, background colors, and gradients.
+### 🎨 Color and Background  → Learn how to apply text colors, background colors, and gradients.
+- [HTML-Source_Code](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/c7964617de86cde14d1a6dd35ad76fc9bb27d003/CSS/BASIC%20CSS%20STYLE/CSS%20TYPOGRAPHY%20PROPERTIES/color%20and%20bg/color%20and%20bg.css) [CSS-Source_Code](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/c7964617de86cde14d1a6dd35ad76fc9bb27d003/CSS/BASIC%20CSS%20STYLE/CSS%20TYPOGRAPHY%20PROPERTIES/color%20and%20bg/color%20and%20bg.css)
+- OUTPUT
+<img width="1902" height="285" alt="Screenshot 2025-10-27 213236" src="https://github.com/user-attachments/assets/61663803-f99a-4f87-b4b3-4fbe59bfa765" />
 
 ### 🔠 Font Family
-- [font family](./font%20family/) → Explore how different font stacks and fallbacks work in CSS.
+- [font family]() → Explore how different font stacks and fallbacks work in CSS.
 
 ### 🔤 Font Size
 - [Front_size](./Front_size/) → Understand font sizing units (px, em, rem, %, vw).

@@ -2,8 +2,16 @@
 All CSS practice and concept-based programs.
 
 ### 📁 1. Basics
-- **selectors.md** → Demonstrates element, class, and ID selectors.
-- **colors.md** → CSS color properties (hex, rgb, hsl).
+- **[Animation in CSS](./Basics/animation.md)** → Demonstrates keyframes and transitions.
+- **Basic CSS Styles**
+  - **🅰️ Typography**
+    - [text-styles.md](./Basics/Styles/Typography/text-styles.md) → Font size, family, and text decoration.
+    - [text-alignment.md](./Basics/Styles/Typography/text-alignment.md) → Center, left, right alignment examples.
+    - [text-spacing.md](./Basics/Styles/Typography/text-spacing.md) → Line height and letter spacing.
+  - **🎯 Specific Content**
+    - [backgrounds.md](./Basics/Styles/Specific-Content/backgrounds.md) → Background color, image, and gradients.
+    - [borders.md](./Basics/Styles/Specific-Content/borders.md) → Border width, color, and radius.
+    - [colors.md](./Basics/Styles/Specific-Content/colors.md) → Hex, RGB, and HSL color formats.
 - **text-styles.md** → Text formatting (font, size, decoration).
 - **backgrounds.md** → Background color, image, gradient examples.
 

@@ -22,7 +22,7 @@ Each easing type changes how the motion feels — whether it moves at a constant
 ---
 
 ## 🖼️ Output Preview
-🔗 **[View Output (Demo)](YourPreviewLinkHere)**  
+🔗 ****  
 *(Hover over each image to see how the transition timing changes.)*
 
 ---

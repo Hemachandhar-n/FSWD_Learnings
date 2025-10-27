@@ -22,7 +22,8 @@ Each easing type changes how the motion feels — whether it moves at a constant
 ---
 
 ## 🖼️ Output Preview
-🔗 **(https://github.com/Hemachandharn/FSWD_Learnings/blob/c56c101c253a8d3fd4ed8116c789fb881b0daf7e/CSS/ANIMINATION/Animation.gif)**  
+🔗 ![Animation](https://github.com/user-attachments/assets/6e1f92ef-8746-4bc9-aad7-484371fff6d6)
+  
 *(Hover over each image to see how the transition timing changes.)*
 
 ---

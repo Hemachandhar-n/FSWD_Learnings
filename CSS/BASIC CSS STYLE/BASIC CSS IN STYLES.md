@@ -14,8 +14,11 @@ Each topic below links to a specific folder or example demonstrating its use.
 - OUTPUT
 <img width="1902" height="285" alt="Screenshot 2025-10-27 213236" src="https://github.com/user-attachments/assets/61663803-f99a-4f87-b4b3-4fbe59bfa765" />
 
-### 🔠 Font Family
-- [font family]() → Explore how different font stacks and fallbacks work in CSS.
+### 🔠 Font Family → Explore how different font stacks and fallbacks work in CSS.
+- {[HTML-Source_Code](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/f3fef235c821321a87fc08289eabdb2590e90918/CSS/BASIC%20CSS%20STYLE/CSS%20TYPOGRAPHY%20PROPERTIES/font%20family/font.html)} {[CSS-Source_Code](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/f3fef235c821321a87fc08289eabdb2590e90918/CSS/BASIC%20CSS%20STYLE/CSS%20TYPOGRAPHY%20PROPERTIES/font%20family/font.css)}
+- OUTPUT
+<img width="1060" height="192" alt="Screenshot 2025-10-27 213349" src="https://github.com/user-attachments/assets/c60ce787-8434-4c1c-b7e4-6c5a43c524ed" />
+
 
 ### 🔤 Font Size
 - [Front_size](./Front_size/) → Understand font sizing units (px, em, rem, %, vw).

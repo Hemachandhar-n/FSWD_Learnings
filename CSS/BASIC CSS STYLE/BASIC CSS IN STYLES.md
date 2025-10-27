@@ -1,4 +1,4 @@
-# ✨ CSS Typography Properties
+# ✨ CSS Typography Properties & Specific properties
 
 ## 📘 Overview
 This section covers various **typography-related CSS properties** — including color, font styling, text spacing, transformation, and decorative effects.

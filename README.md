@@ -3,8 +3,9 @@
 This repository documents my journey in learning **Full Stack Web Development (MERN Stack)** — from frontend design to backend logic and database management.
 
 ## 📚 Contents
-- HTML, CSS, and JavaScript fundamentals
-- [HTML, CSS, and JavaScript Fundamentals](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/5609abe4fa325c04c6f1fda3ae537b04cad50356/HTML/contant.md)
+- HTML,
+- CSS,
+- JavaScript Fundamentals (https://github.com/Hemachandhar-n/FSWD_Learnings/blob/5609abe4fa325c04c6f1fda3ae537b04cad50356/HTML/contant.md)
 - React.js components, hooks, and state management  
 - Node.js and Express.js backend development  
 - MongoDB database handling and Mongoose  

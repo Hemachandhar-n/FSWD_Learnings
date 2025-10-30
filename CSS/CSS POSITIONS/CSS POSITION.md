@@ -6,7 +6,7 @@ This folder contains examples of different CSS position properties with practica
 
 ## 📘 Files and Descriptions
 
-- **[1_static position.html]([1_static%20position.html](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/030db643b80c10077fa029d9051bcc2e07c1d6ae/CSS/CSS%20POSITIONS/1_static%20position.html))**  
+- **[1_static position.html](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/030db643b80c10077fa029d9051bcc2e07c1d6ae/CSS/CSS%20POSITIONS/1_static%20position.html)**  
   Demonstrates the default **static** positioning where elements follow the normal page flow.
   - Output:
     
@@ -14,7 +14,7 @@ This folder contains examples of different CSS position properties with practica
 
     
 
-- **[2_Relative position.html]([2_Relative%20position.html](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/030db643b80c10077fa029d9051bcc2e07c1d6ae/CSS/CSS%20POSITIONS/2_Relative%20position.html))**  
+- **[2_Relative position.html](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/030db643b80c10077fa029d9051bcc2e07c1d6ae/CSS/CSS%20POSITIONS/2_Relative%20position.html)**  
   Shows **relative** positioning — the element moves relative to its original position.
   - Output:
     
@@ -22,14 +22,14 @@ This folder contains examples of different CSS position properties with practica
 
     
 
-- **[3_absolute position.html]([3_absolute%20position.html](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/030db643b80c10077fa029d9051bcc2e07c1d6ae/CSS/CSS%20POSITIONS/3_absolute%20position.html))**  
+- **[3_absolute position.html](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/030db643b80c10077fa029d9051bcc2e07c1d6ae/CSS/CSS%20POSITIONS/3_absolute%20position.html)**  
   Demonstrates **absolute** positioning — element positioned relative to its nearest positioned ancestor.
   - Output:
     
     <img width="780" height="743" alt="Screenshot 2025-10-30 115222" src="https://github.com/user-attachments/assets/9451babd-ffaf-4b10-ae23-8436566bf776" />
 
 
-- **[4_Fixed position.html]([4_Fixed%20position.html](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/030db643b80c10077fa029d9051bcc2e07c1d6ae/CSS/CSS%20POSITIONS/4_Fixed%20position.html))**  
+- **[4_Fixed position.html](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/030db643b80c10077fa029d9051bcc2e07c1d6ae/CSS/CSS%20POSITIONS/4_Fixed%20position.html)**  
   Shows **fixed** positioning — element stays in place even when the page scrolls.
   - Output:
     
@@ -37,7 +37,7 @@ This folder contains examples of different CSS position properties with practica
 
     
 
-- **[5_Sticky position.html]([5_Sticky%20position.html](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/030db643b80c10077fa029d9051bcc2e07c1d6ae/CSS/CSS%20POSITIONS/5_Sticky%20position.html))**  
+- **[5_Sticky position.html](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/030db643b80c10077fa029d9051bcc2e07c1d6ae/CSS/CSS%20POSITIONS/5_Sticky%20position.html)**  
   Demonstrates **sticky** positioning — element behaves as relative until a scroll threshold is reached, then sticks like fixed.
   - Output:
     

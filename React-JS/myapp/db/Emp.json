@@ -1,0 +1,23 @@
+{
+    "Employee":[
+        {
+            "id":1,
+            "name":"sundar",
+            "position":"trainer",
+           "salary":20000
+      },
+       {
+            "id":2,
+            "name":"sundar",
+            "position":"trainer",
+           "salary":20000,
+           "image":"/images/car.jpg"
+      },
+       {
+            "id":3,
+            "name":"sundar",
+            "position":"trainer",
+           "salary":20000
+      }
+    ]
+}

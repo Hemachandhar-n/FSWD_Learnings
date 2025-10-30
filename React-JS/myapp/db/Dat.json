@@ -1,0 +1,45 @@
+{
+    "shopping":[
+        {
+            "id":1,
+            "product":"apple",
+            "model":"iphone-17-pro-max",
+            "varient":"512-GB",
+            "color":"orange"
+        },
+          {
+            "id":2,
+            "product":"Samsung",
+            "model":"S25 Ultra",
+            "varient":"512-GB",
+            "color":"Gold-brown"
+        },  {
+            "id":3,
+            "product":"Nothing",
+            "model":"3 pro",
+            "varient":"512-GB",
+            "color":"White"
+        },
+          {
+            "id":4,
+            "product":"ASUS",
+            "model":"ROG Phone-9",
+            "varient":"512-GB",
+            "color":"Black"
+        },
+          {
+            "id":5,
+            "product":"iqoo",
+            "model":"10-zR",
+            "varient":"256GB",
+            "color":"Mixed"
+        },
+          {
+            "id":6,
+            "product":"HONOR",
+            "model":"PRO MAX",
+            "varient":"512-GB",
+            "color":"Troquise Green"
+        }
+    ]
+}

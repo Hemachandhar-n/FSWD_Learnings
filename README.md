@@ -9,8 +9,8 @@ This repository documents my journey in learning **Full Stack Web Development (M
 - [JavaScript Fundamentals](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/5609abe4fa325c04c6f1fda3ae537b04cad50356/HTML/contant.md)
 - [React.js components,]()
 - [Node.js and Express.js, backend development]()
-- [MongoDB database handling with Mongoose ] ()
-- RESTful APIs, CRUD operations, and authentication   
+- [MongoDB database handling with Mongoose ]()
+- [RESTful APIs, CRUD operations, and authentication]() 
 
 ## 🎯 Goal
 To build a solid foundation in full stack development and apply these skills to create professional, scalable web applications.

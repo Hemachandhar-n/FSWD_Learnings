@@ -1,0 +1,20 @@
+<!-- Create an input tag and h1 tag .ensure that whatever is typed into the input tag is
+  immeditly reflected in the content of the h1 tag -->
+
+
+  <!-- keyboard events -->
+
+<input type="text" id="inputbox" onkeyup="RESULT()">
+
+<h1 id="result"></h1>
+
+<script>
+
+    var inputbox =  document.getElementById("inputbox")
+    var result = document.getElementById("result")
+
+    function RESULT(){
+        result.textContent = inputbox.value
+    }
+
+</script>

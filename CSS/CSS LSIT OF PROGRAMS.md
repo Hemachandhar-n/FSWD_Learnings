@@ -4,7 +4,7 @@ All CSS practice and concept-based programs.
 ### 📁 1. Basics
 - **[Animation in CSS](./Basics/animation.md)** → Demonstrates keyframes and transitions.
 - **Basic CSS Styles**
- -[**🅰️ Typography**](https://github.com/Hemachandharn/FSWD_Learnings/tree/b536db799a2bcd05016c1b59095cb70b9ceaeb39/CSS/BASIC%20CSS%20STYLE/CSS%20TYPOGRAPHY%20PROPERTIES)
+  -[**🅰️ Typography**](https://github.com/Hemachandhar-n/FSWD_Learnings/blob/b1b185b195deb399857eaed2596acc7ba779bc48/CSS/BASIC%20CSS%20STYLE/CSS%20TYPOGRAPHY%20PROPERTIES/CSS%20TYPOGRAPHY%20.md)
   - **🎯 Specific Content**
 - **text-styles.md** → Text formatting (font, size, decoration).
 - **backgrounds.md** → Background color, image, gradient examples.
